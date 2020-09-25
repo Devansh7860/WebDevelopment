@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="aqua">
+    <h1>Reservation Request</h1>
+    <form>
+        <fieldset>
+            <legend>General Information</legend>
+            <label for="arrival date">Arrival Date:</label>
+            <input type="date" name="arrival date" id="arrival date">
+            <br>
+            <br>
+            <label for="nights">Nights</label>
+            <input type="number" name="nights" id="nights" required>
+            <br>
+            <br>
+            <label for="adults">Adults:</label>
+            <select name="adults" id="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br><br>
+
+                <label for="children">Children:</label>
+                <select name="children" id="children">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    </select>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preferences</legend>
+
+            <label for="room">Room type:</label>
+            <input type="radio" name="room" id="room">
+            Standard
+            <input type="radio" name="room" id="room">
+            Business
+            <input type="radio" name="room" id="room">
+            Suite
+            <br><br>
+
+            <label for="bed">Bed type:</label>
+            <input type="radio" name="bed" id="bed">
+            King
+            <input type="radio" name="bed" id="bed">
+            Double bed
+            <br><br>
+
+            <input type="checkbox" name="smoking" id="smoking">
+            <label for="smoking">Smoking</label>
+            <br><br>
+           
+
+            <label for="food">Food options:</label>
+            <input type="text" name="food" id="food" list="list1">
+            <datalist  id="list1">
+             <option>Veg</option>
+             <option>Non-Veg</option>
+             <option>Both</option>
+            </datalist>
+
+        </fieldset>
+<br>
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" required pattern="[1-9]{1}[0-9]{9}">
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+
+        </fieldset>
+<br>
+        <fieldset>
+            <legend>Distance Information</legend>
+
+            <label for="fuel">Fuel meter</label>
+           <meter name="fuel" id="fuel" max="100" min="0" value="65" low="30" high="60" optimum="80"></meter>
+<br><br>
+           <label for="progress"> Progress bar</label>
+           <progress name="progress" id="progress"  max="100" min="0" value="60" ></progress>
+           <br><br>
+
+           <label for="textbox">Write about your place of visit:</label><br><br>
+           <textarea name="textbox" id="textbox" cols="50" rows="5" placeholder="Enter your paragrah"></textarea>
+        </fieldset>
+        <br><br>
+
+        <input type="submit" >
+    </form>
+</body>
+</html>
