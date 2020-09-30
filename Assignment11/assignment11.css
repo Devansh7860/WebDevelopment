@@ -1,0 +1,60 @@
+#one{
+    color: white;
+    background-color: #EA7773;
+   text-align: center;
+   line-height: 65px;
+   font-family: 'Grenze Gotisch', cursive;
+   font-size: 40px;
+}
+#two{
+    text-decoration: none;
+    font-size: 20px;
+}
+#three{
+    color: #EA425C;
+}
+#four{
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    text-align: left;
+    text-indent: 65px;
+}
+#five{
+    color: #487EB0;
+    text-align: right;
+    text-decoration: overline;
+}
+#six{
+    text-align: right;
+    line-height: 35px;
+    word-spacing: 5px;
+}
+#seven{
+    background-color: #487EB0;
+    color: #EEC213;
+    text-align: center;
+}
+#nine{
+    text-decoration: line-through;
+}
+#ten{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.eleven{
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#twelve{
+    color: springgreen;
+}
+#p1{
+    text-decoration: line-through;
+}
+#p2{
+    color: chocolate;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p3{
+    font-size: 20px;
+}
