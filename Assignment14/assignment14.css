@@ -1,0 +1,32 @@
+body{
+    border-width: 12px;
+    border-color: cyan;
+    border-style: solid;
+    background-color: black;
+    
+}
+h1{
+    color: ghostwhite;
+    text-align: center;
+    text-decoration: underline;
+    font-size: xxx-large;
+}
+.one{
+    border-width: 8px;
+    border-color: greenyellow;
+    border-style: groove;
+}
+p{
+    color: lightblue;
+    font-size: 20px;
+    border-width: 8px;
+    
+}
+.three{
+    text-align: center;
+}
+.two{
+    border-width: 6px;
+    border-color: red;
+    border-style: dashed;
+}
