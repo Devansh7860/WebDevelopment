@@ -1,0 +1,47 @@
+body{
+    background-color: lightskyblue;
+}
+#one{
+    text-align: center;
+}
+fieldset.class1{
+    background-color: ghostwhite;
+    width: 850px;
+    padding: 30px;
+    margin: auto;
+}
+fieldset.class2{
+    background-color: ghostwhite;
+    width: 890px;
+    margin: auto;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+fieldset.class2 p{
+    font-size: large;
+}
+div.class3{
+    background-color: ghostwhite;
+    margin:  auto;
+    padding: 25px;
+    width: 870px;
+    
+}
+
+#submit{
+    margin-left: 165px;
+}
+div.class3 input:focus{
+    background-color: darkturquoise;
+    color: white;
+}
+#submit input:active{
+    background-color: lightgreen;
+} 
+div.class3 input:invalid{
+    background-color: red;
+    color: white;
+}
