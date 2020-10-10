@@ -1,0 +1,22 @@
+body{
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: lightskyblue;
+    background-color: darkblue;
+}
+#two{
+    font-size: 30px;
+}
+#one{
+    float: left;
+    padding-right: 15px;
+}
+a{
+    font-size: 25px;
+}
