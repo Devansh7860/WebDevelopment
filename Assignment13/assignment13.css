@@ -1,0 +1,59 @@
+body{
+    background-color: whitesmoke;
+}
+nav{
+    background-color: white;
+    margin: 50px;
+    padding: 23px;
+    font-size: large;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0cZebiwZrs1NBIrdhHbw7WhyeZE61GWO2Ow&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 1150px;
+    background-position: center;
+    color: white;
+}
+.d2{
+    border: darkblue;
+    border-width: 1px;
+    border-style: solid;
+    height: 20px;
+    width: 70px;
+   
+}
+#image1{
+    float: left;
+    margin-left: 50px;
+}
+#p1{
+    text-align:left;  
+}
+.ten{
+    background-color: white;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    margin: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTUNUbRxdaWGVJQJ1stiDgC4M10QzuwJ9CBUg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 1150px;
+    background-position-y: top;
+    color: indigo;
+}
+.five{
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 37px;
+    padding-right: 15px;
+    margin-left: 270px;
+    margin-right: 40px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfs9fa-yTj42p0ZO4ZFSVA0IxAgrt6oXVIgw&usqp=CAU);
+    background-position: center;
+    background-size: 1150px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+
