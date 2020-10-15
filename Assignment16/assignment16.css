@@ -1,0 +1,108 @@
+body{
+     border-width: 10px;
+    border-style: double; 
+    border-color: darkblue;
+   
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: lightblue;
+    background-color: royalblue;
+    font-size: xxx-large;
+    text-decoration: underline;
+}
+h1:hover{
+    background-color: lightblue;
+    color: royalblue;
+    text-align: center;
+    font-size: xxxx-large;
+    text-decoration: underline;
+}
+#heading1{
+    text-align: center;
+    font-size: xx-large;
+    color: yellowgreen;
+    text-decoration: overline;
+    
+}
+div.one{
+    background-image: url(https://us.123rf.com/450wm/alancotton/alancotton1601/alancotton160100215/50846160-a-background-created-from-red-shade-circles.jpg?ver=6);
+    background-repeat: repeat;
+    border-width: 6px;
+    border-style: groove;
+    width: 600x;
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: yellow;
+    text-align: justify;
+}
+#img1{
+    float: right;
+}
+.p1{
+    background-image: url(https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);
+
+    font-size: large;
+    border-width: 6px;
+    border-style: groove;
+    margin: 30px;
+    width: 750px;
+   padding: 15px;
+   color: white;
+}
+.heading2{
+    text-align: center;
+    color: rgb(3, 86, 194);
+    text-decoration: overline;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+form{
+    text-align: justify;
+    font-size: 20px;
+}
+input{
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    
+}
+#weight input:invalid{
+    background-color: lightcoral;
+}
+#weight input:valid{
+    background-color: lightgreen;
+}
+ input:in-range{
+    background-color: skyblue;
+}
+input:out-of-range{
+    background-color: lightcoral;
+}
+input:in-range + label::after{
+    content: 'Yay! Correct guess';
+    font-weight: bolder;
+    
+}
+input:out-of-range + label::after{
+    content: 'Uff! Wrong guess';
+    font-weight: bolder;
+}
+.div2{
+    background-color:blue;
+    color: white;
+    height: 30px;
+    padding: 2px;
+    margin: 5px;
+}
+.div2:hover{
+    background-color: darkblue;
+    color: white;
+
+
+}
+
+
