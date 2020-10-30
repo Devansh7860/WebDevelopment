@@ -1,0 +1,449 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(28, 5, 80);
+    color: white;
+}
+.one h1{
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow: royalblue 5px 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: -4px;
+}
+.cards:hover{
+    box-shadow:  10px 10px 15px black;
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
+
+
+
+.cards{
+    display: inline-block;
+    margin-left: 5px;
+    background-color: white;
+    width: 26%;
+    border: 4px solid #A1051D;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+    margin: 40px;
+}
+.heading h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 3px;
+    background-color: rgb(255,89,105);
+    color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    border: whitesmoke 1px solid;
+}
+.image img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para{
+    text-align: center;
+    padding: 5px;
+}
+.para #button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255,89,105);
+    height: 35px;
+    width: 50%;
+    margin-left: -2px;
+    margin-bottom: 0px; 
+    border-radius: 8px;
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+
+
+.para #button a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.para #button2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255,89,105);
+    height: 35px;
+    width: 50%;
+    float: right;
+    border-radius: 8px;
+    margin-bottom: -5px;
+}
+.para #button2 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.cards2{
+    display: inline-block;
+    margin-left: 5px;
+    background-color: white;
+    width: 26%;
+    border: 4px solid #036ed9  ;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+    margin: 40px;;
+}
+.heading2 h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 3px;
+    background:linear-gradient(135deg, #0dc4f0 0%,#0470dc 100%);
+    color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    border: whitesmoke 1px solid;
+}
+.image2 img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para2{
+    text-align: center;
+    padding: 5px;
+}
+.para2 #button3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #0dc4f0 0%,#0470dc 100%);
+    height: 35px;
+    width: 50%;
+    margin-left: -2px;
+    margin-bottom: 0px; 
+    border-radius: 8px;
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+.para2 #button3 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.para2 #button4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #0dc4f0 0%,#0470dc 100%);
+    height: 35px;
+    width: 50%;
+    float: right;
+    border-radius: 8px;
+    margin-bottom: -5px;
+}
+.para2 #button4 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cards2:hover{
+    box-shadow:  10px 10px 15px black;
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.cards3{
+    display: inline-block;
+    margin-left: 5px;
+    background-color: white;
+    width: 26%;
+    border: 4px solid #205e6b;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+    margin: 40px;
+}
+
+.heading3 h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 3px;
+    background:linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+    color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    border: whitesmoke 1px solid;
+}
+.image3 img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para3{
+    text-align: center;
+    padding: 5px;
+}
+.para3 #button5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+    height: 35px;
+    width: 50%;
+    margin-left: -2px;
+    margin-bottom: 0px; 
+    border-radius: 8px;
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+.para3 #button5 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.para3 #button6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+    height: 35px;
+    width: 50%;
+    float: right;
+    border-radius: 8px;
+    margin-bottom: -5px;
+}
+.para3 #button6 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cards3:hover{
+    box-shadow:  10px 10px 15px black;
+    transform: skew(15deg);
+    transition-duration: 1.5s;
+}
+
+.cards6{
+    display: inline-block;
+    margin-left: 5px;
+    background-color: white;
+    width: 26%;
+    border: 4px solid #7088E5;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+    margin: 40px;
+}
+.heading6 h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 3px;
+    background:linear-gradient(135deg, #f02fc2 0%,#6094ea 100%);
+    color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    border: whitesmoke 1px solid;
+}
+.image6 img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para6{
+    text-align: center;
+    padding: 5px;
+}
+.para6 #button10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #6094ea 0%,#f02fc2 100%);
+    height: 35px;
+    width: 50%;
+    margin-left: -2px;
+    margin-bottom: 0px; 
+    border-radius: 8px;
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+.para6 #button10 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.para6 #button11{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #6094ea 0%,#f02fc2 100%);
+    height: 35px;
+    width: 50%;
+    float: right;
+    border-radius: 8px;
+    margin-bottom: -5px;
+}
+.para6 #button11 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cards6:hover{
+    transform: rotateX(360deg) rotateY(360deg);
+    transition-duration: 2s;
+}
+
+
+.cards4{
+    display: inline-block;
+    margin-left: 5px;
+    background-color: white;
+    width: 26%;
+    border: 4px solid #3cb588;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+    margin: 40px;
+}
+.heading4 h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 3px;
+    background:linear-gradient(135deg, #a3df5e 0%,#0ba29d 100%);
+    color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    border: whitesmoke 1px solid;
+}
+.image4 img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para4{
+    text-align: center;
+    padding: 5px;
+}
+.para4 #button7{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    background:linear-gradient(135deg, #a3df5e 0%,#0ba29d 100%);
+    width: 50%;
+    margin-left: -2px;
+    border-color: #3cb588;
+    margin-bottom: 0px; 
+    border-radius: 8px;
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+.para4 #button7 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.para4 #button8{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #a3df5e 0%,#0ba29d 100%);
+    height: 35px;
+    border-color: #3cb588;
+    width: 50%;
+    float: right;
+    border-radius: 8px;
+    margin-bottom: -5px;
+}
+.para4 #button8 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cards4:hover{
+    transform: scaleX(1.45) scaleY(1.1);
+    box-shadow: 0px 0px 35px black;
+    transition-duration: 2s;
+}
+
+.cards5{
+    display: inline-block;
+    margin-left: 5px;
+    background-color: white;
+    width: 26%;
+    border: 4px solid #3425af;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+    margin: 30px;
+}
+.heading5 h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 3px;
+    background:linear-gradient(135deg, #a704fd 0%,#af0bf6 100%);
+    color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    border: whitesmoke 1px solid;
+}
+.image5 img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para5{
+    text-align: center;
+    padding: 5px;
+}
+.para5 #button8{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #a704fd 0%,#af0bf6 100%);
+    height: 35px;
+    width: 50%;
+    margin-left: -2px;
+    margin-bottom: 0px; 
+    border-radius: 8px;
+    border-color: #3425af;
+    margin-bottom: -3px;
+    margin-right: 2px;
+}
+.para5 #button8 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.para5 #button9{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(135deg, #a704fd 0%,#af0bf6 100%);
+    height: 35px;
+    width: 50%;
+    border-color: #3425af;
+    float: right;
+    border-radius: 8px;
+    margin-bottom: -5px;
+}
+.para5 #button9 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cards5:hover{
+    transform: rotateY(360deg);
+    box-shadow: 10px 10px 15px black;
+    transition-duration: 2s;
+}
+
+
